@@ -16,7 +16,6 @@ public class DetectConnection {
         if (con_manager.getActiveNetworkInfo() != null
                 && con_manager.getActiveNetworkInfo().isAvailable()
                 && con_manager.getActiveNetworkInfo().isConnected()) {
-            //test
             return true;
         } else {
             return false;

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -10,39 +11,38 @@
         android:padding="4dp">
 
         <LinearLayout
+            android:id="@+id/card_spon"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/card_spon"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:layout_weight="0.9">
+                android:layout_weight="0.9"
+                android:gravity="center">
 
                 <ImageView
                     android:layout_width="40dp"
-                    android:layout_margin="4dp"
                     android:layout_height="40dp"
+                    android:layout_margin="4dp"
                     android:src="@drawable/medal" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:layout_weight="0.1">
+                android:layout_weight="0.1"
+                android:gravity="center">
 
                 <TextView
                     android:id="@+id/proj_spon"
                     android:layout_width="match_parent"
-                    android:padding="3dp"
-                    android:textColor="@android:color/holo_red_light"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
+                    android:padding="3dp"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                    />
+                    android:textColor="@android:color/holo_red_light" />
             </LinearLayout>
         </LinearLayout>
 
@@ -56,10 +56,9 @@
             android:id="@+id/proj_domain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="italic"
             android:layout_marginBottom="10dp"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
-
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
 
 
         <TextView
@@ -110,3 +109,5 @@
 
     </LinearLayout>
 </ScrollView>
+
+

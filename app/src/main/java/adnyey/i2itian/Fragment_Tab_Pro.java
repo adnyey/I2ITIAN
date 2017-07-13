@@ -96,7 +96,7 @@ public class Fragment_Tab_Pro extends Fragment {
 
             switch (position) {
                 case 0:
-                    return "2017";
+                    return "2016-17";
             }
             return null;
         }

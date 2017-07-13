@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 /**
@@ -49,6 +50,16 @@ public class Fragment_Custom extends Fragment {
 
         notifs.setTextOff("Notifications\nOFF");
         notifs.setTextOn("Notifications\nON");
+
+        notifs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                notifs.setChecked(false);
+                Toast.makeText(getActivity(),"Under development",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        notifs.setChecked(false);
 
         branch_selec.setOnClickListener(new View.OnClickListener() {
             @Override
