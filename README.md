@@ -8,5 +8,6 @@ I made this application when I was in my 3rd year of college. I wanted to know w
  3. The application following Google’s Material design guidelines.
  4. It shows the categry and primarry technology of the projects as "pills".
  5. If any project was sponsored, an icon was displayed next to it in the list.
+ 6. Every final year had its own tab.
 
 ![](screenshots/screen-0.jpg)
